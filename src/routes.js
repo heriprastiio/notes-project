@@ -1,7 +1,7 @@
 const routes = [
     {
         method: 'GET',
-        path: '/',
+        path: '/books',
         handler: () => {
             return 'Homepage';
         }
